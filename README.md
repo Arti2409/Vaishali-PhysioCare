@@ -11,7 +11,7 @@ Welcome to Vaishali PhysioCare&Rehab, your trusted destination for personalized 
 
 ## Features
 
-- Easily schedule appointments with the specialists.
+- Easily schedule appointments with the specialists
 - Engage in virtual consultations to receive expert medical advice.
 - Responsive UI design for seamless user experience across devices.
 - Utilizes React-Toastify for notifications, React Router DOM for page routing, and FontAwesomeIcon for icons.

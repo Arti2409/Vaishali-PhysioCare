@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Vaishali-PhysioCare/static/css/main.3a21dff5.css",
+    "main.js": "/Vaishali-PhysioCare/static/js/main.b608f02a.js",
+    "static/media/Vaishali1.png": "/Vaishali-PhysioCare/static/media/Vaishali1.c224c0217cabd04b91bc.png",
+    "static/media/Vaishali5.png": "/Vaishali-PhysioCare/static/media/Vaishali5.074b7e48d141045f60d5.png",
+    "static/media/Vaishali3.png": "/Vaishali-PhysioCare/static/media/Vaishali3.4421348d62d85f448f57.png",
+    "static/media/Logo.png": "/Vaishali-PhysioCare/static/media/Logo.50f51ef0e614856150b1.png",
+    "static/media/cupping 2.png": "/Vaishali-PhysioCare/static/media/cupping 2.08e0eb0f7c9f01c001e6.png",
+    "static/media/therapy.png": "/Vaishali-PhysioCare/static/media/therapy.1439d83c3ccfdbea2c1f.png",
+    "static/media/posture (1).png": "/Vaishali-PhysioCare/static/media/posture (1).c2802fb7699cdfe45dc7.png",
+    "static/media/laser 2.png": "/Vaishali-PhysioCare/static/media/laser 2.6c6480487af10bb25f8d.png",
+    "index.html": "/Vaishali-PhysioCare/index.html",
+    "main.3a21dff5.css.map": "/Vaishali-PhysioCare/static/css/main.3a21dff5.css.map",
+    "main.b608f02a.js.map": "/Vaishali-PhysioCare/static/js/main.b608f02a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a21dff5.css",
+    "static/js/main.b608f02a.js"
+  ]
+}

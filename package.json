@@ -2,7 +2,7 @@
   "name": "vaishali-physiocare",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://Arti2409.github.io/Vaishali-PhysioCare"
+  "homepage":"https://Arti2409.github.io/Vaishali-PhysioCare",
   
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",

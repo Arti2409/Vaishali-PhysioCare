@@ -11,6 +11,11 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Fallback for Safari on iOS < 15.4 */
+body {
+    -webkit-overflow-scrolling: touch;
+}
+
 /* Custom Scroll Bar */
 ::-webkit-scrollbar {
     width: 8px;

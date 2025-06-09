@@ -109,7 +109,7 @@
   display: flex;
 }
 /* Responsive */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 100px) {
     .hero-image-section {
         display: none;
     }
@@ -121,7 +121,7 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100px) {
     .text-headline {
         font-size: 20px;
     }

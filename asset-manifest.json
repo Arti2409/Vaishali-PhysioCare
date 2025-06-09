@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.3462d62e.css",
+    "main.css": "/static/css/main.a9f361f0.css",
     "main.js": "/static/js/main.e9296092.js",
     "static/media/Vaishali1.png": "/static/media/Vaishali1.c224c0217cabd04b91bc.png",
     "static/media/Vaishali5.png": "/static/media/Vaishali5.074b7e48d141045f60d5.png",
@@ -11,11 +11,11 @@
     "static/media/posture (1).png": "/static/media/posture (1).c2802fb7699cdfe45dc7.png",
     "static/media/laser 2.png": "/static/media/laser 2.6c6480487af10bb25f8d.png",
     "index.html": "/index.html",
-    "main.3462d62e.css.map": "/static/css/main.3462d62e.css.map",
+    "main.a9f361f0.css.map": "/static/css/main.a9f361f0.css.map",
     "main.e9296092.js.map": "/static/js/main.e9296092.js.map"
   },
   "entrypoints": [
-    "static/css/main.3462d62e.css",
+    "static/css/main.a9f361f0.css",
     "static/js/main.e9296092.js"
   ]
 }

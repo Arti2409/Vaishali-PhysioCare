@@ -121,7 +121,7 @@
     color: #0cc2ea;
 }
 /* Responsive */
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 900px) {
     .navbar-btn, .navbar-items {
         display: none;
     }

@@ -13,7 +13,8 @@ html {
 
 /* Fallback for Safari on iOS < 15.4 */
 body {
-    -webkit-overflow-scrolling: touch;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
 }
 
 /* Custom Scroll Bar */

@@ -17,6 +17,10 @@ function Footer() {
             </p>
           </div>
 
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 487c791279012ce5466d4ff106aeee8ccfdf0d75
         </div>
 
         <div className="ft-list">

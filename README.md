@@ -1,10 +1,10 @@
-# Health Plus
+# Vaishali PhysioCare&Rehab
 
 Welcome to Vaishali PhysioCare&Rehab, your trusted destination for personalized care and healing. We specialize in pain relief, injury recovery, and movement therapy tailored to your needs. Our certified physiotherapist use advanced techniques to help you regain strength, flexibility, and confidence.
 
 ## Project Overview
 
-- **Website**: [Vaishali PhysioCare](https://github.com/Arti2409/Vaishali-PhysioCare.git/ "Vaishali-PhysioCare")
+- **Website**: [Vaishali PhysioCare](https://www.vaishaliphysiocare.in/)
 - **Framework**: React.js
 - **Deployment**: GitHub Pages
 - **Libraries**: React-Toastify, React Router DOM, FontAwesomeIcon
@@ -30,7 +30,7 @@ To run the project locally:
 2. Navigate to the project directory: `cd Vaishali-PhysioCare`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
-5. Open your browser and visit: `http://localhost:3000/Health-Plus`
+5. Open your browser and visit: `http://localhost:3000`
 
 ## Contributing
 

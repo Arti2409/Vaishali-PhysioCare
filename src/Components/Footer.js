@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/Footer.css";
-import SubscribeNewsletter from "./SubscribeNewsletter";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -18,7 +17,7 @@ function Footer() {
             </p>
           </div>
 
-          <SubscribeNewsletter />
+        
         </div>
 
         <div className="ft-list">

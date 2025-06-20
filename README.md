@@ -4,7 +4,7 @@ Welcome to Vaishali PhysioCare&Rehab, your trusted destination for personalized 
 
 ## Project Overview
 
-- **Website**: [Vaishali PhysioCare](https://github.com/Arti2409/Vaishali-PhysioCare.git/ "Vaishali-PhysioCare")
+- **Website**: [Vaishali PhysioCare](https://www.vaishaliphysiocare.in/)
 - **Framework**: React.js
 - **Deployment**: GitHub Pages
 - **Libraries**: React-Toastify, React Router DOM, FontAwesomeIcon

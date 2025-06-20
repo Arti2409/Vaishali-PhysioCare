@@ -16,13 +16,8 @@ function Footer() {
             regain strength, and improve your overall physical well-being—all in a supportive and professional environment.
             </p>
           </div>
-
-<<<<<<< HEAD
-=======
-        
->>>>>>> 487c791279012ce5466d4ff106aeee8ccfdf0d75
-        </div>
-
+       </div>
+       
         <div className="ft-list">
           <p className="ft-list-title">Services</p>
           <ul className="ft-list-items">

@@ -81,7 +81,7 @@
     border: 1px solid #1A8EFD;
 }
 /* Responsive */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 786px) {
     .ba-section {
         display: block;
     }

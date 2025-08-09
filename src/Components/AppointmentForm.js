@@ -56,6 +56,28 @@ function AppointmentForm() {
       return;
     }
 
+    try {
+      // Send form data to Formspree
+      const response = await fetch("https://formspree.io/f/xdkdyooj", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          patientName,
+          patientNumber,
+          patientGender,
+          appointmentTime,
+          preferredMode
+        }),
+      });
+
+      if (response.ok) {
+        toast.success("Appointment Scheduled!", {
+          position: toast.POSITION.TOP_CENTER,
+          onOpen: () => setIsSubmitted(true),
+          onClose: () => setIsSubmitted(false),
+        });
+
+
     // Reset form fields and errors after successful submission
     setPatientName("");
     setPatientNumber("");

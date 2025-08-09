@@ -60,7 +60,9 @@ function AppointmentForm() {
       // Send form data to Formspree
       const response = await fetch("https://formspree.io/f/xdkdyooj", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json",
+          "Accept": "application/json"
+         },
         body: JSON.stringify({
           patientName,
           patientNumber,

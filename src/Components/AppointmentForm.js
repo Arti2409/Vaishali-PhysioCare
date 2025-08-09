@@ -57,27 +57,26 @@ function AppointmentForm() {
     }
 
     try {
-      // Send form data to Formspree
+      // ✅ CHANGE 1: Send as FormData instead of JSON
+      const formData = new FormData();
+      formData.append("Patient Name", patientName);
+      formData.append("Phone Number", patientNumber);
+      formData.append("Gender", patientGender);
+      formData.append("Appointment Time", appointmentTime);
+      formData.append("Preferred Mode", preferredMode);
+  
+      // ✅ CHANGE 2: Using Formspree endpoint directly
       const response = await fetch("https://formspree.io/f/xdkdyooj", {
         method: "POST",
-        headers: { "Content-Type": "application/json",
-          "Accept": "application/json"
-         },
-        body: JSON.stringify({
-          patientName,
-          patientNumber,
-          patientGender,
-          appointmentTime,
-          preferredMode
-        }),
+        body: formData,
+        headers: { 'Accept': 'application/json' }
       });
 
       if (response.ok) {
         toast.success("Appointment Scheduled!", {
           position: toast.POSITION.TOP_CENTER,
-          onOpen: () => setIsSubmitted(true),
-          onClose: () => setIsSubmitted(false),
         });
+        setIsSubmitted(true);
       }
     } catch (error) {
       toast.error("Failed to schedule appointment. Please try again.", {

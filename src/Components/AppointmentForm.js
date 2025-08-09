@@ -18,7 +18,7 @@ function AppointmentForm() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [formErrors, setFormErrors] = useState({});
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     // Validate form inputs
@@ -76,8 +76,14 @@ function AppointmentForm() {
           onOpen: () => setIsSubmitted(true),
           onClose: () => setIsSubmitted(false),
         });
-
-
+      }
+    } catch (error) {
+      toast.error("Failed to schedule appointment. Please try again.", {
+        position: toast.POSITION.TOP_CENTER,
+      });
+    }
+    
+    // Reset form fields and errors after successful submission
     // Reset form fields and errors after successful submission
     setPatientName("");
     setPatientNumber("");
